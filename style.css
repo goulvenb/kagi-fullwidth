@@ -1,0 +1,15 @@
+.center-content-box {
+	width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+	:root {
+		--center_content_width: unset;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1269px) {
+	header .center-content-box {
+		margin-right: 80px;
+	}
+}
